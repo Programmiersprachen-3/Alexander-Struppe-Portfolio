@@ -22,7 +22,7 @@
 	<div class="menu">
 		<a href="#home">Home</a>
 		<a href="#about">About</a>
-		<a href="#news">Portfolio</a>
+		<a href="#portfolio">Portfolio</a>
 		<a href="#contact">Contact</a>
 	</div>
 </body>

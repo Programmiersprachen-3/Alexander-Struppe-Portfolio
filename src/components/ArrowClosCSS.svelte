@@ -7,8 +7,7 @@
 <script>
 	import { tweened } from 'svelte/motion';
 	import { cubicInOut } from 'svelte/easing';
-	import polymorph from 'polymorph-js';
-	const interpolate = polymorph.interpolate;
+	import { interpolate } from 'polymorph-js';
 
 	const progress = tweened(0, {
 		duration: 400,

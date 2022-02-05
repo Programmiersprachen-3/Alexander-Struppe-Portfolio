@@ -18,12 +18,24 @@
 		</linearGradient>
 	</defs>
 </svg> -->
-<button> SEE MY WORK </button>
+<button class="callToActionButton" onclick="location.href='#portfolio'" data-parallax="scroll">
+	SEE MY WORK
+</button>
 
 <style>
-	button {
-		opacity: 70%;
+	.callToActionButton {
+		opacity: 100%;
 		background-image: url(/HeroButton.svg);
+		scale: 100%;
+		color: aliceblue;
+		border: none;
+		background-size: auto;
+		border-radius: 15px;
+		width: 246px;
+		height: 65px;
+		font-size: 25px;
+		transform-origin: left;
+		transition: 200ms;
 	}
 	button:hover {
 		transform: scale(1.5);

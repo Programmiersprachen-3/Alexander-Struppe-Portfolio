@@ -1,9 +1,10 @@
 <script>
-	import ArrowClosCss from './components/ArrowClosCSS.svelte';
-	import Background from './components/Background.svelte';
-	import HeroButton from './components/HeroButton.svelte';
-	import Menu from './components/Menu.svelte';
-	import TextLandingPange from './components/TextLandingPange.svelte';
+	import ArrowClosCss from '../components/ArrowClosCSS.svelte';
+	import Background from '../components/Background.svelte';
+	import HeroButton from '../components/HeroButton.svelte';
+	import Menu from '../components/Menu.svelte';
+	import TextLandingPange from '../components/TextLandingPange.svelte';
+	import Portfolio from '../components/Portfolio.svelte';
 </script>
 
 <div class="background"><Background /></div>
@@ -16,6 +17,8 @@
 	<div class="textLandingPage"><TextLandingPange /></div>
 	<div class="heroButton"><HeroButton /></div>
 </div>
+
+<div><Portfolio /></div>
 
 <style>
 	.WebHead {
